@@ -1,3 +1,9 @@
+textarea {
+  outline: none;
+  border: 1px solid #ededed;
+  padding: 0.5rem;
+}
+
 h1 {
   font-weight: 800;
   color: rgb(84, 88, 203);
@@ -9,13 +15,17 @@ h5 {
 
 .section {
   background-color: rgb(84, 88, 203);
-}
 
-.btn-primary {
-  background-color: rgb(84, 88, 203);
-  border-color: rgb(84, 88, 203);
-}
+  .btn-primary {
+    background-color: rgb(84, 88, 203);
+    border-color: rgb(84, 88, 203);
+  }
 
-.content {
-  width: 350px;
+  .content {
+    width: 350px;
+
+    .active {
+      display: block;
+    }
+  }
 }

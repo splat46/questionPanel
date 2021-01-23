@@ -1,1 +1,1 @@
-h1{font-weight:800;color:#5458cb}h5{margin-bottom:1.5rem}.section{background-color:#5458cb}.btn-primary{background-color:#5458cb;border-color:#5458cb}.content{width:350px}
+textarea{outline:none;border:1px solid #ededed;padding:.5rem}h1{font-weight:800;color:#5458cb}h5{margin-bottom:1.5rem}.section{background-color:#5458cb}.section .btn-primary{background-color:#5458cb;border-color:#5458cb}.section .content{width:350px}.section .content .active{display:block}
