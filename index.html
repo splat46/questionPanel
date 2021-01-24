@@ -16,18 +16,18 @@
     <div class="section mt-5">
         <div class="container">
             <div class="d-flex justify-content-center">
-                <div class="content bg-light">
+                <div id="questionPanel" class="content bg-light">
 
-                    <div id="tab">
+                    <div class="question-panel">
                         <div class="box p-4">
                             <div class="badge rounded-pill bg-secondary mb-4">Question 1/4</div>
                             <h5>Heb je op de site kunnen vinden wat je zocht?</h5>
                             <button class="btn btn-outline-secondary px-5">Nee</button>
-                            <button id="next" class="btn btn-primary px-5">Ja</button>
+                            <button class="btn btn-primary px-5">Ja</button>
                         </div>
                     </div>
                    
-                    <div id="tab">
+                    <div class="question-panel">
                         <div class="box p-4">
                             <div class="badge rounded-pill bg-secondary mb-4">Question 2/4</div>
                             <h5>Kan je uitleggen waarom niet?</h5>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
 
-                    <div id="tab">
+                    <div class="question-panel">
                         <div class="box p-4">
                             <div class="badge rounded-pill bg-secondary mb-4">Question 3/4</div>
                             <h5>Heb je onze nieuwe recept al kunnen proeven? Zo ja, wat vind je daarvan?</h5>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
 
-                    <div id="tab">
+                    <div class="question-panel">
                         <div class="box p-4">
                             <div class="badge rounded-pill bg-secondary mb-4">Question 4/4</div>
                             <h5>Bedankt voor je feedback!</h5>
@@ -61,10 +61,10 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     
-    <script src="js/questionTabs.js"></script>
+    <script src="js/questionPanel.js"></script>
 
     <script>
-        const tabs = new Tabs()
+        const questionPanel = new QuestionPanel('#questionPanel .question-panel');
     </script>
 </body>
 </html>
